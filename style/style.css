@@ -1,0 +1,52 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #FFF8F3;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: bisque;
+}
+
+nav>ul {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+
+nav li {
+  padding-right: 20px;
+
+}
+
+.search {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+  border: 0;
+}
+
+.search-btn {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #FD6E0A;
+  border: 0;
+}
+
+.caption {
+  padding-left: 300px;
+  padding-top: 100px;
+  max-width: 1350px;
+}
+
